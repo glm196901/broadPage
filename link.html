@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff5252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+</head>
+<style type="text/css">
+    body{
+        font-size: 14px;
+    }
+    dt{
+         position: fixed;
+        top: 0;
+        width: 100%;
+        height: .88rem;
+        line-height: .88rem;
+        text-align: center;
+        background-color: #ff5252;
+    }
+     dd{
+         padding: .4rem;
+         margin-top: .88rem;
+     }
+     a{
+            position: absolute;
+            left: .1rem;
+            top: 0;
+            padding: .1rem;
+     }
+     a,h3{display: inline-block;}
+    .btnBack{
+        width: .24rem;
+        height: .42rem;
+        display: inline-block;
+    }
+    .notice-tit{
+        font-size: .4rem;
+        font-family: PingFangSC-Medium, sans-serif;
+        color: #fff;
+
+    }
+     .notice-info{
+         line-height: 1.6;
+        font-size: .3rem;
+        color: #666;
+        font-family: PingFangSC-Regular, sans-serif;
+    }
+    .tit2{
+        color: #333;
+        font-family: PingFangSC-Semibold, sans-serif;
+        font-size: .32rem;
+        display: block;
+         padding: .3rem 0 .2rem;
+    }
+    .tit{
+        color: #333;
+        font-family: PingFangSC-Semibold, sans-serif;
+        display: block;
+        padding: .3rem 0 .2rem;
+    }
+    .titCenter{
+         text-align: center;
+         padding-top: .2rem;
+    }
+   /*兼容1) 与2) 对不齐*/
+   .tit3{
+         text-align: center;
+        display: inline-block;
+        width: .5rem;
+    }
+    
+</style>
+<body>
+<dl id="dialog">
+    <dt>
+        <a href="http://www.abcdef123.com"> <img class="btnBack" src="http://play.zdzlw.com/img/v/vapp/download_page/icon-back.png"> </a>
+        <h3 class="notice-tit"></h3>
+    </dt>
+    <dd>
+        <p class="notice-info"></p>
+    </dd>
+</dl>
+
+<script type="text/javascript" src="js/Zepto.min.js"></script>
+<script type="text/javascript" src="js/fq-index.js"></script>
+<script type="text/javascript">
+     document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+</script>
+</body>
+</html>
